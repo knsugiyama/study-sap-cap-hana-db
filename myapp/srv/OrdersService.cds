@@ -1,7 +1,7 @@
-using { my.tutorial as tis } from '../db/Orders';
+using { my.tutorial as my } from '../db/Orders';
 
 
 @path : 'orders'
 service OrdersService {
-    entity Orders as select from tis.Orders;
+    entity Orders as select from my.Orders;
 }
